@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* Aca trabajo con el encabezado */
+body{
+    background: url(./imagenes/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: -10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 174px;
+    align-items: center; 
+    margin: 0 165px 0 165px ;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 23px 0 23px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #242E52;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar ul li a:hover{
+    color: #F3603B;
+}
+.logo{
+    width: 145.54px;
+    height: 23.74px;
+}
+.orangebutton{
+    background: #F3603B;
+    color: #FFFFFF;
+    width: 134px;
+    height: 44px;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+}
+.orangebutton:hover{
+    cursor: pointer;
+    background:#FFFFFF;
+    color: #F3603B;
+}
+#menu{
+    display: none;
+}
+#close{
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+/* Aca empiezo a trabajar con el contenido principal */
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 165px 0 165px;
+}
+.home-first{
+    min-width: 439px;
+    min-height: 386px;
+    margin-right: 110px;
+}
+.home-first h1{
+    color: #232C50;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.035em;
+}
+.home-first p{
+    color: #000000;
+    width: 350px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;
+    margin: 28px 0 28px 0;
+}
+/* Empiezo con la seccion about us */
+.about-us{
+    display: flex;
+    margin: 0 165px 0 165px;
+    justify-content: space-around;
+}
+.about-first{
+    min-width: 433px;
+    min-height: 212px; 
+    text-align: left;
+}
+.about-first h2{
+    color: #232851;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    margin-bottom: 36px;
+}
+.about-text{
+    color:#000000;
+    padding-right: 96px;
+}
+.about-second{
+    display: flex;
+    flex-direction: column;
+}
+.about-secondBox{
+    display: flex;
+    margin-bottom: 35.5px;
+}
+.small-orange-button{
+    background: #F3603B;
+    color: #FFFFFF;
+    width: 69px;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+.box-text{
+    margin: 6.5px 23px;
+}
+.box-text h4{
+    color: #323851;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+}
+.box-text p{
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+/* Empiezo a trabajar en testimonios */
+.testimonials{
+    margin: 132.5px 71px 180px 71px;
+    text-align: center;
+}
+.testimonials h3{
+    color: #242E53;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+}
+.testimonials-cards{
+    display: flex;
+    margin: 109px 0 45px 0;
+    background: #FAFAFA;
+}
+.cards-img{
+  width: 120px;
+}
+.card{
+    position: relative;
+    top: -65px;
+}
+.card h4{
+    color: #3F4868;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 25px;
+    margin: 21px 0px;
+}
+.card p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #B9B9C1;
+}
+/* Arranco con la seccion simplify */
+.simplify{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F3613C;
+    height: 224px;
+    padding: 0 165px;
+}
+.simplify h2{
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    width: 480px;
+    height: 96px;
+}
+.white-button{
+    cursor: pointer;
+    background:#FFFFFF;
+    color: #F3603B;
+    width: 134px;
+    height: 44px;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+}
+.white-button:hover{
+    color: #000000;
+}
+/* Comienzo a trabajar en el footer */
+footer{
+    background: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 247px;
+    padding: 56px 165px;
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.social-media ul{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media ul li{
+    list-style: none;
+}
+.second-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 392.73px;
+    height: 141.14px;
+}
+.list-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 142px;
+    list-style: none;
+}
+.list-two{
+    display: flex;
+    flex-direction: column;
+    height: 142px;
+    list-style: none;
+}
+.list-two li{
+    margin-bottom: 12px;
+}
+.second-nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.second-nav ul li a:hover{
+    color: #F3603B;
+}
+.footer-third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.email-box{
+    background: #FFFFFF;
+    width: 201px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+.footer-btn{
+    font-weight: 400;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.993);
+}
+.footer-btn:hover{
+    color: #F3603B;
+    cursor: pointer;
+    background:#FFFFFF;
+}
+.footer-third p {
+    color: #8C8C94;
+    height: 19.85px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+}
+
+@media (max-width: 1200px) {
+    header {
+        margin: 0 30px 0 30px;
+    }
+    .home{
+        margin: 0 30px 0 30px;
+    }
+    .home-first{
+        margin-right: 0px;
+    }
+    .home-second{
+       width: 100%;
+    }
+    #stats-img{
+       max-width: 100%;
+       height: auto;
+    }
+    .about-us{
+        margin: 0 30px 0 30px;
+    }
+    .simplify{
+        padding: 0 70px;
+    }
+    .second-nav{
+        width: 200px;
+    }
+    footer{
+        padding: 56px 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home-first h1{
+        font-size: 44px;
+    }
+    .home-first p{
+        width: 100%;
+    }
+    footer{
+        padding: 56px 50px;
+    }
+    .logo{
+        width: 130px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin: 0 8px 0 8px;
+    }
+    .about-first{
+        text-align: center;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    .about-text{
+        padding: 0;
+    }
+    .about-second{
+        text-align:center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        position: absolute;
+        top: 120px;
+        display: none;
+    }
+    .navbar ul {
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    .navbar ul li{
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        opacity: 0.9;
+        margin:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    header{
+        height: 120px;
+        margin: 0;
+    }
+    #menu{
+        display: block;
+        margin-right: 30px;
+    }
+    #nav-btn{
+        display: none;
+    }
+    #checkbox:checked ~ .navbar{
+       display: flex;
+    }
+    #checkbox:checked ~ label #menu{
+        display: none
+    }
+    #checkbox:checked ~ label #close {
+        display: block;
+        margin-right: 30px;
+    }
+    .home-first{
+        min-width: 100vw;
+    }
+    .home-first h1 {
+        font-size: 36px;
+        line-height: 44px;
+        padding: 0 20px;
+    }
+    .home-first p{
+        padding: 0 20px;
+        color:#B3B2B7;
+    }
+    .about-us{
+        width: 100vw;
+        margin: 0;
+    }
+    .about-first{
+       margin-bottom: 50px;   
+       min-width: auto;
+    }
+    .about-second{
+        box-sizing: border-box;
+    }
+    .about-secondBox{
+        width: 100%;
+    }
+    .about-text{
+        color:#B3B2B7;
+        text-align:inherit;  
+        padding: 0 30px;
+    }
+    .btn-container{
+        position: absolute;
+    }
+    .box-text {
+        margin: 8px 0px;
+        text-align: left;
+    }
+    .box-text p{
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .box-text h4{
+        display: inline-block;
+        position: relative;
+        left: 90px;
+        font-size: 16px;
+    }
+    .small-orange-button{
+        width: 60px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .testimonials{
+        margin:0;
+        margin-bottom: 50px;
+    }
+    .testimonials h3{
+        font-size: 32px;
+    }
+    .testimonials-cards{
+        flex-direction: column;
+    }
+    .card p{
+        padding: 0 20px 20px ;
+    }
+    .simplify{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .simplify h2{
+        width: auto;
+        font-size: 32px;
+    }
+    footer{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 40px 0 40px 0;
+        text-align: center;
+
+    }
+    .footer-first{
+        flex-direction: column-reverse;
+        height: 80px;
+        width: 300px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .social-media ul{
+        display: flex;
+        justify-content: space-between;
+        align-items:baseline;
+    }
+    .social-media ul li{
+        list-style: none;
+    }
+    .mob{
+        margin: 0;
+        align-self: center;
+    }
+    .copyright{
+        position:relative;
+        bottom: -290px;
+        left: 0;
+    }
+    .second-nav{
+        width: 280px;
+    }
+    }
