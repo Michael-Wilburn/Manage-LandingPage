@@ -1,8 +1,10 @@
 Sitio Web Examen 
 
 Link del repositorio: 
+https://github.com/moneyripper/Manage-LandingPage
 
 Link del Sitio web:
+https://moneyripper.github.io/Manage-LandingPage/
 
 
 
